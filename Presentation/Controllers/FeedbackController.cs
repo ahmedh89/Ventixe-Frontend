@@ -5,7 +5,7 @@ namespace FeedbackDashboard.Controllers
 {
     public class FeedbackController : Controller
     {
-        public IActionResult Dashboard()
+        public IActionResult Index()
         {
             var viewModel = GetMockData();
             return View(viewModel);
